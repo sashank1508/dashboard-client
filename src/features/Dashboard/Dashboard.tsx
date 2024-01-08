@@ -25,7 +25,7 @@ const DashboardComponent = () => {
   const [selectedMonth, setSelectedMonth] = useState<string>("");
 
   useEffect(() => {
-    axios.get("http://localhost:8000/users").then((response) => {
+    axios.get("https://dashboard-api-7dji.onrender.com/users").then((response) => {
       console.log({ response });
       const fornmattedData = formatDataByMonth(response.data);
       setMonths(Object.keys(fornmattedData));
