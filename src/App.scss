@@ -1,0 +1,21 @@
+.App {
+  display: grid;
+  grid-template-rows: 64px 1fr;
+  height: 100vh;
+  
+  .App-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    font-size: 1rem;
+    border-bottom: 1px gray solid;
+    //margin-left: 20px;
+  }
+  .nav__avatar {
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    object-fit: contain;
+    padding-top: 10px; 
+  }
+}

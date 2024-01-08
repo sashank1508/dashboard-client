@@ -1,0 +1,30 @@
+.horizontalBarChartContainer {
+    .legendContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 8px;
+        }
+
+        .legendIcon {
+            display: flex;
+            width: 16px;
+            height: 16px;
+            margin: 4px;
+            border-radius: 3px;
+        }
+    }
+
+    .barAndLabel {
+        align-items: center;
+        text-align: center;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 70% 30%;
+    }
+}
